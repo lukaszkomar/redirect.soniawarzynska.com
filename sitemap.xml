@@ -5,7 +5,7 @@
     {% for page in site.pages %}
     {% if page.priority %}
     <url>
-        <loc>http://{{ site.url }}{{ page.url | remove: 'index.html' | replace: '.html', '' }}</loc>                      
+        <loc>https://{{ site.url }}{{ page.url | remove: 'index.html' | replace: '.html', '' }}</loc>                      
         <priority>{{ page.priority }}</priority>
     </url>
     {% endif %}
