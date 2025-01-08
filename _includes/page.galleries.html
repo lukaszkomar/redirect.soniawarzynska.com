@@ -1,0 +1,72 @@
+<article id="post-278" class="post-278 page type-page status-publish has-post-thumbnail hentry">
+    <header class="entry-header">
+        <h1>{% if page.lang == 'pl' %}Zdjęcia{% else %}Photos{% endif %}</h1>
+    </header>
+    {% comment %}
+    <div class="entry-content">
+        <p>Zdjęcia</p>
+    </div>
+    {% endcomment %}
+</article><!-- #post-278 -->
+
+
+<div class="portfolio-projects" id="portfolio-projects">
+
+    <div class="project-terms">
+        <ul>
+            {% if page.lang == 'pl' %}
+            <li><a class="{% if page.gallcat  == 'wszystkie' %}current-type types-all{% endif %}" href="/zdjecia"          >Wszystkie</a></li>
+            <li><a class="{% if page.gallcat  == 'portrety'  %}current-type types-all{% endif %}" href="/zdjecia-portrety" >Portrety</a></li>
+            <li><a class="{% if page.gallcat  == 'koncerty'  %}current-type types-all{% endif %}" href="/zdjecia-koncerty" >Koncerty</a></li>
+            <li><a class="{% if page.gallcat  == 'spektakle' %}current-type types-all{% endif %}" href="/zdjecia-spektakle">Spektakle</a></li>
+            {% else %}
+            <li><a class="{% if page.gallcat  == 'wszystkie' %}current-type types-all{% endif %}" href="/photos"           >All</a></li>
+            <li><a class="{% if page.gallcat  == 'portrety'  %}current-type types-all{% endif %}" href="/photos-portraits" >Portraits</a></li>
+            <li><a class="{% if page.gallcat  == 'koncerty'  %}current-type types-all{% endif %}" href="/photos-concerts"  >Concerts</a></li>
+            <li><a class="{% if page.gallcat  == 'spektakle' %}current-type types-all{% endif %}" href="/photos-production">Production photos</a></li>
+            {% endif %}
+        </ul>
+    </div>
+
+    <div class="portfolio-wrapper" id="main">
+
+    {% for g in site.gallery %}
+
+        {% if g[1].category == page.gallcat or "wszystkie" == page.gallcat %}
+        <article id="post-{{ g[0] }}" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" >
+
+            <div class="post-thumbnail">
+                <img data-original="/p/i/g/{{ g[0] }}/{{ g[1].images['01'] }}m.jpg"
+                     src="/p/i/g/{{ g[0] }}/{{ g[1].images['01'] }}m.jpg"
+
+                     width="900"
+                     height="600"
+                     class="portfolio-featured-image"
+                     alt="{{ g[1].title[page.lang] }} - {{ g[1].desc[page.lang] }}"
+                     title="{{ g[1].title[page.lang] }} - {{ g[1].desc[page.lang] }}"
+                     style="display: inline;"
+                >
+            </div><!-- .post-thumbnail -->
+
+
+            <div class="project-archive-content">
+                <div class="project-archive-content-wrapper">
+                    <header class="entry-header">
+                        <h2 class="entry-title">
+                            <a href="/{{ g[1].url[page.lang] }}" rel="bookmark">{{ g[1].title[page.lang] }}</a>
+                        </h2>
+                    </header>
+                    <div class="entry-meta">
+                        <span class="cat-links">{{ g[1].desc[page.lang] }}</span>
+                    </div><!-- .entry-meta -->
+                </div><!-- .project-archive-content-wrap -->
+            </div><!-- .project-archive-content -->
+
+        </article><!-- #post -->
+        {% endif %}
+    {% endfor %}
+
+
+    </div><!-- .portfolio-wrapper -->
+
+</div><!-- .portfolio-projects -->

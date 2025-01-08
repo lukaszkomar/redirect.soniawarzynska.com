@@ -1,0 +1,56 @@
+ <article id="post-278" class="post-278 page type-page status-publish has-post-thumbnail hentry">
+    <header class="entry-header">
+        <h1>{{ site.gallery[page.galleryname].title[page.lang] }}</h1>
+    </header>
+    <div class="entry-content">
+        <p>{{ site.gallery[page.galleryname].desc[page.lang] }}</p>
+    </div>
+</article>
+
+
+ <div class="portfolio-projects" id="portfolio-projects">
+ <div class="portfolio-wrapper" id="main">
+
+{% for img in site.gallery[page.galleryname].images %}
+
+<article id="post-{{ img[0] }}" class="jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-abandoned jetpack-portfolio-tag-books jetpack-portfolio-tag-papers" >
+
+     <div class="post-thumbnail">
+         <img data-original="/p/i/g/{{ page.galleryname }}/{{ img[1]}}.jpg"
+              src="/p/i/g/{{ page.galleryname }}/{{ img[1] }}m.jpg"
+
+              width="900"
+              height="600"
+              class="portfolio-featured-image"
+              alt="{{ site.gallery[page.galleryname].title[page.lang] }} - {{ site.gallery[page.galleryname].desc[page.lang] }}"
+              title="{{ site.gallery[page.galleryname].title[page.lang] }} - {{ site.gallery[page.galleryname].desc[page.lang] }}"
+              style="display: inline;"
+         >
+     </div><!-- .post-thumbnail -->
+
+
+     <div class="project-archive-content">
+         <div class="project-archive-content-wrapper">
+             <header class="entry-header">
+                 <h2 class="entry-title">
+                     <a
+                         href="/p/i/g/{{ page.galleryname }}/{{ img[1] }}.jpg"
+                         target="_blank"
+                         rel="bookmark"
+                         data-lightbox="light"
+                         data-title="{{ site.gallery[page.galleryname].title[page.lang] }} - {{ site.gallery[page.galleryname].desc[page.lang] }}"
+
+                     >{{ site.gallery[page.galleryname].title[page.lang] }}</a>
+                 </h2>
+             </header>
+             <div class="entry-meta">
+                 <span class="cat-links">{{ site.gallery[page.galleryname].desc[page.lang] }}</span>
+             </div><!-- .entry-meta -->
+         </div><!-- .project-archive-content-wrap -->
+     </div><!-- .project-archive-content -->
+
+</article><!-- #post-271 -->
+{% endfor %}
+
+ </div>
+ </div>

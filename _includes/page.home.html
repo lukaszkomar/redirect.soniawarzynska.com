@@ -1,0 +1,135 @@
+<div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+
+        <div class="wrap">
+            <article id="post-106" class="lodestar-intro post-106 page type-page status-publish has-post-thumbnail hentry">
+                <div class="entry-content">
+                    <blockquote>
+                    <p>
+                    {% if page.lang == 'pl' %}
+                        W wymagającej arii Fiordiligi "Come scoglio" z dużym zakresem tonalnym i szerokimi skokami interwałów,
+                        okazała godną podziwu integralność głosu, inteligencję śpiewu i umiejętność szczegółowego opracowania
+                        zarówno technicznego, jak i ekspresywnego. Arię Paminy "Ach, ich fühl's" zinterpretowała bardzo prosto i czule.
+                    {% else %}
+                        Sonia Warzyńska made a great impression by presenting two contrasting arias. She sang each of them in
+                        totally different style and fashon. In challeging Fiordiligi’s aria „Come scoglio” with a big tonal range
+                        and large intervals, she showed impressive voice integrity, singing intelligence and a skill of very detailed
+                        technical and expressive preparation.
+                        Pamina’s aria "Ach, ich fühl's" was interpreted by her very tenderly and in a straightforward way.
+                    {% endif %}
+                        <br/><cite>— <a href="http://operaplus.cz" target="_blank">operaplus.cz</a></cite>
+                    </p>
+                    </blockquote>
+                </div>
+            </article><!-- #post-## -->
+        </div>
+
+        <article id="post-124" class="lodestar-panel two-column post-124 page type-page status-publish has-post-thumbnail hentry">
+
+            <span class="panel lodestar-panel1" id="panel1">
+                <span class="lodestar-panel-title">Panel 1</span>
+            </span>
+
+
+            <div class="panel-image" style="background-image: url(/p/i/foto2.jpg);">
+                <div class="panel-image-prop" style="padding-top: 60%"></div>
+            </div>
+
+
+            <div class="panel-content">
+                <div class="wrap">
+                    <header class="entry-header">
+                        <h2 class="entry-title">{% if page.lang == 'pl' %}Biografia{% else %}Biography{% endif %}</h2>
+
+                    </header><!-- .entry-header -->
+
+                    <div class="entry-content" style="text-align: justify;">
+                        {% include page.bio.html %}
+                    </div><!-- .entry-content -->
+
+
+                </div><!-- .wrap -->
+            </div><!-- .panel-content -->
+
+        </article><!-- #post-## -->
+
+        <article id="events" class="lodestar-panel post-125 page type-page status-publish has-post-thumbnail hentry">
+
+            <span class="panel lodestar-panel1" id="panel15">
+                <span class="lodestar-panel-title">Panel 1.5</span>
+            </span>
+
+
+            <div class="panel-image" style="background-image: url(/p/i/sonia-warzynska-dettlaff-wydarzenia.jpg);">
+                <div class="panel-image-prop" style="padding-top: 60%"></div>
+            </div>
+
+
+            <div class="panel-content">
+                <div class="wrap">
+                    <header class="entry-header">
+                        <h2 class="entry-title">{% if page.lang == 'pl' %}Kalendarz{% else %}Schedule{% endif %}</h2>
+
+                    </header><!-- .entry-header -->
+
+                    <div class="entry-content" style="text-align: center; font-size: 1.7rem;">
+                        {% include page.events.html %}
+                    </div><!-- .entry-content -->
+
+
+                </div><!-- .wrap -->
+            </div><!-- .panel-content -->
+
+        </article><!-- #events-->
+
+        <article id="post-127" class="lodestar-panel one-column post-127 page type-page status-publish has-post-thumbnail hentry">
+
+            <span class="panel lodestar-panel2" id="panel2">
+                <span class="lodestar-panel-title">Panel 2</span>
+            </span>
+
+
+            <div class="panel-image" style="background-image: url(/p/i/foto3.jpg);">
+                <div class="panel-image-prop" style="padding-top: 60%"></div>
+            </div>
+
+
+            <div class="XXXpanel-content">
+                <div class="XXXwrap">
+                    <div class="entry-content" >
+
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div id="instaplugin" class="elfsight-app-72e0ede1-6bf2-4538-b5b7-941913ab6e1e"></div>
+
+                        <script>
+
+                            var iterations = 0;
+                            var intervalId = null;
+
+                            //usuwa reklame
+                            $(function() {
+                                $(document).ready(function () {
+
+                                    function adkill(){
+                                        iterations++;
+                                        console.log('adkill', iterations);
+                                        $("a:contains('Free Instagram Feed widget')").css("display", "none");
+
+                                        if (iterations > 11) {
+                                            window.clearInterval(intervalId);
+                                        }
+                                    }
+
+                                    intervalId = setInterval(adkill,1000);
+                                });
+                            })
+                        </script>
+
+                    </div>
+                </div><!-- .wrap -->
+            </div><!-- .panel-content -->
+
+        </article><!-- #post-## -->
+
+    </main><!-- #main -->
+</div><!-- #primary -->

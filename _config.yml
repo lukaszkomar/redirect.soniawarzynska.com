@@ -1,0 +1,1228 @@
+# Header metadata
+url: soniadettlaff.com
+
+author: Sonia Dettlaff
+
+description_pl: Solistka Sonia Dettlaff. Oficjalna strona artystki.
+description_en: Soloist Sonia Dettlaff. Official website of the artist.
+
+og_site_name_pl: Sonia Dettlaff
+og_site_name_en: Sonia Dettlaff
+
+# Social media
+social:
+  facebook: https://facebook.com/SoniaWarzynskaSopran
+  gplus   : https://plus.google.com/+SoniaWarzynskaSopran
+  twitter : https://twitter.com/sonia_warzynska
+  youtube : https://youtube.com/SoniaWarzynskaSopran
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Warsaw
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:title/
+
+# Struktura galerii
+gallery:
+
+  "portraits-raczka":
+    "category": "portrety"
+    "url":
+      "en": "photos-portraits-marta-raczka"
+      "pl": "zdjecia-portrety-marta-raczka"
+    "title":
+      "en": "Portraits - Marta Rączka"
+      "pl": "Portrety - Marta Rączka"
+    "desc":
+      "en": "by Marta Rączka"
+      "pl": "fot. Marta Rączka"
+    "images":
+      "01": "portrait1"
+      "02": "portrait2"
+
+  "portraits-baranowska":
+    "category": "portrety"
+    "url":
+      "en": "photos-portraits-zofia-baranowska"
+      "pl": "zdjecia-portrety-zofia-baranowska"
+    "title":
+      "en": "Portraits - Zofia Baranowska"
+      "pl": "Portrety - Zofia Baranowska"
+    "desc":
+      "en": "by Zofia Baranowska"
+      "pl": "fot. Zofia Baranowska"
+    "images":
+      "01": "baranowska1"
+      "02": "baranowska2"
+      "03": "baranowska3"
+
+  "didoandaeneas":
+    "category": "spektakle"
+    "url":
+      "en": "photos-production-dido-and-aeneas"
+      "pl": "zdjecia-spektakle-dydona-i-eneasz"
+    "title":
+      "en": "Dido and Aeneas"
+      "pl": "Dydona i Eneasz"
+    "desc":
+      "en": "H.Purcell “Dido and Aeneas“, Grand Theatre, Poznan, 28.04.2016 photos by M.Ośko"
+      "pl": "H.Purcell “Dydona i Eneasz“, Teatr Wielki - Opera Poznań, 28.04.2016r. fot.M.Ośko"
+    "images":
+      "01": "didoandaeneas1"
+      "02": "didoandaeneas2"
+      "03": "didoandaeneas3"
+      "04": "didoandaeneas4"
+      "05": "didoandaeneas5"
+      "06": "didoandaeneas6"
+      "07": "didoandaeneas7"
+
+  "2015widow":
+    "category": "spektakle"
+    "url":
+      "en": "photos-production-the-merry-widow"
+      "pl": "zdjecia-spektakle-wesola-wdowka"
+    "title":
+      "en": "The Merry Widow"
+      "pl": "Wesoła wdówka"
+    "desc":
+      "en": "“The Merry Widow“ by F.Lehar (Hanna Glawari) photo by Michał Słomiński"
+      "pl": "“Wesoła wdówka“ F.Lehara (partia Hanny Glawari) fot. Michał Słomiński"
+    "images":
+      "01": "widow1"
+      "02": "widow2"
+      "03": "widow3"
+      "04": "widow4"
+      "05": "widow5"
+      "06": "widow6"
+      "07": "widow7"
+
+  "zilina-noworoczny-2019":
+    "category": "koncerty"
+    "url":
+      "en": "photos-concerts-new-year-zilina"
+      "pl": "zdjecia-koncerty-noworoczny-zilina"
+    "title":
+      "en": "New Year's Concerts Žilina"
+      "pl": "Koncerty Noworoczne Žilina"
+    "desc":
+      "en": "New Year's Concerts: 17-18.01.2019. Štátny komorný orchester, Dom Umenia Fatra Žilina (Slovakia), fot. Roderik Kučavík"
+      "pl": "Koncerty Noworoczne Žilina: 17-18.01.2019r. Štátny komorný orchester, Dom Umenia Fatra Žilina (Słowacja), fot. Roderik Kučavík"
+    "images":
+      "01": "zilina1"
+      "02": "zilina2"
+      "03": "zilina3"
+      "04": "zilina4"
+      "05": "zilina5"
+      "06": "zilina6"
+      "07": "zilina7"
+
+  "bydgoszcz-2018":
+    "category": "koncerty"
+    "url":
+      "en": "photos-concerts-bydgoszcz-requiem-d-moll"
+      "pl": "zdjecia-koncerty-bydgoszcz-requiem-d-moll"
+    "title":
+      "en": "”Requiem in D minor” by W.A.Mozart"
+      "pl": "”Requiem d-moll” W.A.Mozarta"
+    "desc":
+      "en": "”Requiem in D minor” by W.A.Mozart: soprano solo, 30.10.2018. Pomeranian Philharmony in Bydgoszcz (Poland), fot. Mariusz Talkowski"
+      "pl": "”Requiem d-moll” W.A.Mozarta: solo sopranowe, 30.10.2018r. Filharmonia Pomorska w Bydgoszczy, fot. Mariusz Talkowski"
+    "images":
+      "01": "bydgoszcz1"
+
+  "zilina-allegretto-2018":
+    "category": "koncerty"
+    "url":
+      "en": "photos-concerts-zilina-allegretto-2018"
+      "pl": "zdjecia-koncerty-zilina-allegretto-2018"
+    "title":
+      "en": "Allegretto Festival Žilina"
+      "pl": "Festiwal Allegretto Žilina"
+    "desc":
+      "en": "Allegretto Festival Žilina: The Chamber Concert, 19.04.2018. Dom Umenia Fatra Žilina (Slovakia), fot. Roderik Kučavík"
+      "pl": "Festiwal Allegretto Žilina: Koncert kameralny, 19.04.2018r. Dom Umenia Fatra Žilina (Słowacja), fot. Roderik Kučavík"
+    "images":
+      "01": "zilina1"
+      "02": "zilina2"
+      "03": "zilina3"
+      "04": "zilina4"
+      "05": "zilina5"
+
+  "estivales2014":
+    "category": "koncerty"
+    "url":
+      "en": "photos-concerts-estivales2014"
+      "pl": "zdjecia-koncerty-estivales2014"
+    "title":
+      "en": "Estivales En Puisaye 2014"
+      "pl": "Estivales En Puisaye 2014"
+    "desc":
+      "en": "2nd soprano in “Mass in c minor” by Mozart, 23-24.08.2014. Briare, Toucy (France)"
+      "pl": "II sopran w “Mszy c-moll” Mozarta, 23-24.08.2014r. Briare, Toucy (Francja)"
+    "images":
+      "01": "estivales1"
+
+  "impressioart":
+    "category": "koncerty"
+    "url":
+      "en": "photos-concerts-impressioart"
+      "pl": "zdjecia-koncerty-impressioart"
+    "title":
+      "en": "Impressio Art Sopot 2014"
+      "pl": "Impressio Art Sopot 2014"
+    "desc":
+      "en": "6th Countrywide Vocal Competition Impressio Art Sopot 2014"
+      "pl": "VI Ogólnopolski Konkurs Wokalny Impressio Art Sopot 2014"
+    "images":
+      "01": "impressioart1"
+      "02": "impressioart2"
+      "03": "impressioart3"
+      "04": "impressioart4"
+      "05": "impressioart5"
+      "06": "impressioart6"
+
+  "figaro":
+    "category": "spektakle"
+    "url":
+      "en": "photos-production-figaro"
+      "pl": "zdjecia-spektakle-figaro"
+    "title":
+      "en": "“Le Nozze di Figaro”"
+      "pl": "Wesele Figara"      
+    "desc":
+      "en": "W.A.Mozart “Le Nozze di Figaro“. Spectacle took place at the Opera House in Cracow. 22.05.2014. The Role of Susanna."  
+      "pl": "W.A.Mozart “Wesele Figara”. Spektakl odbył się w Operze Krakowskiej 22.05.2014r. Rola Zuzanny."
+    "images":
+      "01": "figaro1"
+      "04": "figaro4"
+      "07": "figaro7"
+      "08": "figaro8"
+      "09": "figaro9"
+      "10": "figaro10"
+      "11": "figaro11"
+      "12": "figaro12"
+      "13": "figaro13"
+      "14": "figaro14"
+      "15": "figaro15"
+
+  "rodelinda":
+    "category": "spektakle"
+    "url":
+      "en": "photos-production-rodelinda"
+      "pl": "zdjecia-spektakle-rodelinda"
+    "title":
+      "en": "Rodelinda"
+      "pl": "Rodelinda"
+    "desc":
+      "en": "Georg Friedrich Händel “Rodelinda”. Student's performance, which took place on 21.04.2013 at the Academy of Music in Cracow. Title role."
+      "pl": "Georg Friedrich Händel “Rodelinda”. Spektakl studencki, który odbył się 21.04.2013r. w Akademii Muzycznej w Krakowie. Tytułowa partia."
+    "images":
+      "01": "rodelinda1"
+      "02": "rodelinda2"
+      "03": "rodelinda3"
+      "04": "rodelinda4"
+      "05": "rodelinda5"
+      "06": "rodelinda6"
+      "07": "rodelinda7"
+      "08": "rodelinda8"
+      "09": "rodelinda9"
+      "10": "rodelinda10"
+      "11": "rodelinda11"
+      "12": "rodelinda12"
+      "13": "rodelinda13"
+
+# Struktura Repertuaru
+repertoire:
+
+#  "parts":
+#    "title":
+#      "pl": Partie
+#      "en": Parts
+#    "nested": false
+#    "items":
+#      "01":
+#        "pl": "V.Bellini „Capuleti e i Montecchi”: Giulietta"
+#        "en": "V.Bellini „Capuleti e i Montecchi”: Giulietta"
+#      "02":
+#        "pl": "W.A.Mozart „Wesele Figara”: Zuzanna"
+#        "en": "W.A.Mozart „Le Nozze di Figaro”: Susanna"
+#      "03":
+#        "pl": "W.A.Mozart „Wesele Figara”: Hrabina"
+#        "en": "W.A.Mozart „Wesele Figara”: Contessa"
+#      "04":
+#        "pl": "F.Lehár „Wesoła wdówka”: Hanna Glawari"
+#        "en": "F.Lehár „Die lustige Witwe”: Hanna Glawari"
+#      "05":
+#        "pl": "G.F.Händel „Rodelinda”: Rodelinda"
+#        "en": "G.F.Händel „Rodelinda”: Rodelinda"
+#      "06":
+#        "pl": "H.Purcell „Dydona i Eneasz”: Dydona"
+#        "en": "H.Purcell „Dido and Aeneas”: Dido"
+#      "07":
+#        "pl": "H.Purcell „The Fairyqueen”: Nyph, Night"
+#        "en": "H.Purcell „The Fairyqueen”: Nyph, Night"
+#      "08":
+#        "pl": "W.A.Mozart „Requiem d-moll”"
+#        "en": "W.A.Mozart „Requiem in d minor”"
+#      "09":
+#        "pl": "W.A.Mozart „Msza c-moll”"
+#        "en": "W.A.Mozart „Messe in c minor”"
+#      "10":
+#        "pl": "J.Haydn „Msza nelsońska”"
+#        "en": "J.Haydn „Messe in augustiis”"
+#      "11":
+#        "pl": "Camille Saint-Saëns „Oratorium na Boże Narodzenie”"
+#        "en": "Camille Saint-Saëns „Oratorio de Noël”"
+#      "12":
+#        "pl": "G.B.Pergolesi „Stabat Mater”"
+#        "en": "G.B.Pergolesi „Stabat Mater”"
+#      "13":
+#        "pl": "J.S.Bach – Kantata BWV4 „Christ lag in Todes Banden”"
+#        "en": "J.S.Bach – Cantate BWV4 „Christ lag in Todes Banden”"
+#      "14":
+#        "pl": "J.S.Bach – Kantata BWV140 „Wachet auf, ruft uns die Stimme”"
+#        "en": "J.S.Bach – Cantate BWV140 „Wachet auf, ruft uns die Stimme”"
+#      "15":
+#        "pl": "J.S.Bach – Kantata BWV51 „Jauchzet Gott in allen Landen”"
+#        "en": "J.S.Bach – Cantate BWV51 „Jauchzet Gott in allen Landen”"
+#      "16":
+#        "pl": "G.F.Händel „Dixit Dominus”"
+#        "en": "G.F.Händel „Dixit Dominus”"
+#      "17":
+#        "pl": "J.Haydn „Stworzenie świata”"
+#        "en": "J.Haydn „Die Schöpfung”"
+#      "18":
+#        "pl": "L. van Beethoven „IX Symfonia”"
+#        "en": "L. van Beethoven „Symphony no.9”"
+#      "19":
+#        "pl": "G.Fauré „Requiem”"
+#        "en": "G.Fauré „Requiem”"
+#      "20":
+#        "pl": "A.Dvořák „Msza D-dur”"
+#        "en": "A.Dvořák „Messe in d major”"
+#      "21":
+#        "pl": "C.Orff „Carmina burana”"
+#        "en": "C.Orff „Carmina burana”"
+#      "22":
+#        "pl": "G.Majka „Mgła”"
+#        "en": "G.Majka „Mgła”"
+#
+#  "operaArias":
+#    "title":
+#      "pl": "Arie operowe"
+#      "en": "Opera Arias"
+#    "nested": true
+#    "items":
+#      "italian":
+#        "title":
+#          "pl": "Włoskie"
+#          "en": "Italian"
+#        "items":
+#          "01":
+#            "pl": "V.Bellini „Ah, non credea mirarti” z opery „Lunatyczka” (Amina)"
+#            "en": "V.Bellini „Ah, non credea mirarti” from „La Sonnambula” (Amina)"
+#          "02":
+#            "pl": "V.Bellini „Eccomi in lieta vesta... Oh, quante volte...” z opery “Capuleti e i Montecchi” (Julia)"
+#            "en": "V.Bellini „Eccomi in lieta vesta... Oh, quante volte...” from “Capuleti e i Montecchi” (Giulietta)"
+#          "03":
+#            "pl": "G.Donizetti “Quel guardo il cavaliere... So anch’io...” z opery “Don Pasquale” (Norina)"
+#            "en": "G.Donizetti “Quel guardo il cavaliere... So anch’io...” from “Don Pasquale” (Norina)"
+#          "04":
+#            "pl": "G.Donizetti “Regnava nel silenzio... Quando rapito in estasi...” z opery “Łucja z Lammermoor” (Łucja)"
+#            "en": "G.Donizetti “Regnava nel silenzio... Quando rapito in estasi...” from “Lucia di Lammermoor” (Lucia)"
+#          "05":
+#            "pl": "J.Haydn „Infelice sventurata” z opery „I due supposti Conti” (Beatrycze)"
+#            "en": "J.Haydn „Infelice sventurata” from „I due supposti Conti” (Beatrice)"
+#          "06":
+#            "pl": "G.F.Händel „Tornami a vagheggiar” z opery „Alcina” (Morgana)"
+#            "en": "G.F.Händel „Tornami a vagheggiar” from „Alcina” (Morgana)"
+#          "07":
+#            "pl": "G.F.Händel „Piangeró la sorte mia” z opery „Juliusz Cezar” (Kleopatra)"
+#            "en": "G.F.Händel „Piangeró la sorte mia” from „Giulio Cesare” (Cleopatra)"
+#          "08":
+#            "pl": "G.F.Händel „Lascia ch’io pianga” z opery „Rinaldo” (Armida)"
+#            "en": "G.F.Händel „Lascia ch’io pianga” from „Rinaldo” (Armida)"
+#          "09":
+#            "pl": "W.A.Mozart „Vedrai, carino” z opery „Don Giovanni” (Zerlina)"
+#            "en": "W.A.Mozart „Vedrai, carino” from „Don Giovanni” (Zerlina)"
+#          "10":
+#            "pl": "W.A.Mozart “Giunse alfin il momento... Deh, vieni, non tardar...” z opery “Wesele Figara” (Zuzanna)"
+#            "en": "W.A.Mozart “Giunse alfin il momento... Deh, vieni, non tardar...” from “Le Nozze di Figaro” (Susanna)"
+#          "11":
+#            "pl": "W.A.Mozart “Venite inginocchiatevi” z opery “Wesele Figara” (Zuzanna)"
+#            "en": "W.A.Mozart “Venite inginocchiatevi” from “Le Nozze di Figaro” (Susanna)"
+#          "12":
+#            "pl": "G.Puccini „O mio babbino caro” z opery „Gianni Schicchi” (Lauretta)"
+#            "en": "G.Puccini „O mio babbino caro” from „Gianni Schicchi” (Lauretta)"
+#          "13":
+#            "pl": "G.Puccini „Quando me’n vo” z opery „Cyganeria” (Musetta)"
+#            "en": "G.Puccini „Quando me’n vo” from „La Bohème” (Musetta)"
+#          "14":
+#            "pl": "G.Puccini „Sì, mi chiamano Mimi” z opery „Cyganeria” (Mimi)"
+#            "en": "G.Puccini „Sì, mi chiamano Mimi” from „La Bohème” (Mimi)"
+#          "15":
+#            "pl": "G.Verdi „Gualtier Maldè... Caro nome...” z opery “Rigoletto” (Gilda)"
+#            "en": "G.Verdi „Gualtier Maldè... Caro nome...” from “Rigoletto” (Gilda)"
+#          "16":
+#            "pl": "G.Verdi „Tutte le feste” z opery „Rigoletto” (Gilda)"
+#            "en": "G.Verdi „Tutte le feste” from „Rigoletto” (Gilda)"
+#          "17":
+#            "pl": "G.Verdi “Teneste la promessa... Addio del passato” z opery “Traviata” (Violetta)"
+#            "en": "G.Verdi “Teneste la promessa... Addio del passato” from “Traviata” (Violetta)"
+#          "18":
+#            "pl": "G.Verdi “E strano!... Ah, fors'è lui... Sempre libera” z opery “Traviata” (Violetta)"
+#            "en": "G.Verdi “E strano!... Ah, fors'è lui... Sempre libera” from “Traviata” (Violetta)"
+#
+#      "german":
+#        "title":
+#          "pl": "Niemieckie"
+#          "en": "German"
+#        "items":
+#          "01":
+#            "pl": "W.A.Mozart „Ach, ich fühl’s” z opery „Czarodziejski flet” (Pamina)"
+#            "en": "W.A.Mozart „Ach, ich fühl’s” from „Die Zauberflöte” (Pamina)"
+#          "02":
+#            "pl": "C.M. von Weber „Kommt ein schlanken...” z opery “Wolny strzelec” (Anusia)"
+#            "en": "C.M. von Weber „Kommt ein schlanken...” from “Der Freischütz” (Ännchen)"
+#
+#      "french":
+#        "title":
+#          "pl": "Francuskie"
+#          "en": "French"
+#        "items":
+#          "01":
+#            "pl": "G.Bizet “Me voilà seule dans la nuit... Comme autrefois...” z opery “Poławiacze Pereł” (Leila)"
+#            "en": "G.Bizet “Me voilà seule dans la nuit... Comme autrefois...” from “Les Pêcheurs de perles” (Leila)"
+#          "02":
+#            "pl": "G.Donizetti „Il faut partir” z opery „Córka pułku” (Maria)"
+#            "en": "G.Donizetti „Il faut partir” from „La fille du régiment” (Maria)"
+#          "03":
+#            "pl": "G.Donizetti „Salut à la France” z opery „Córka pułku” (Maria)"
+#            "en": "G.Donizetti „Salut à la France” from „La fille du régiment” (Maria)"
+#          "04":
+#            "pl": "J.Massenet „Obêissons quand leur voix appelle” z opery „Manon” (Manon)"
+#            "en": "J.Massenet „Obêissons quand leur voix appelle” from „Manon” (Manon)"
+#
+#      "slavic":
+#        "title":
+#          "pl": "Słowiańskie"
+#          "en": "Slavic"
+#        "items":
+#          "01":
+#            "pl": "P.Czajkowski “Отчего это прежде не знала” z opery “Iolanta” (Iolanta)"
+#            "en": "P.Czajkowski “Отчего это прежде не знала” from “Iolanta” (Iolanta)"
+#          "02":
+#            "pl": "P.Czajkowski „Пускай погибну я” scena pisania listu z opery „Eugeniusz Oniegin” (Tatiana)"
+#            "en": "P.Czajkowski „Пускай погибну я” Letter Scene from „Eugene Oniegin” (Tatiana)"
+#          "03":
+#            "pl": "A.Dvořak “Měsičku na nebe hlubokem” z opery “Rusałka” (Rusałka)"
+#            "en": "A.Dvořak “Měsičku na nebe hlubokem” from “Rusałka” (Rusałka)"
+#          "04":
+#            "pl": "M.Rimski-Korsakow „С подружками по ягоду ходить” z opery „Snieguroczka” (Snieguroczka)"
+#            "en": "M.Rimski-Korsakow „С подружками по ягоду ходить” from „Snieguroczka” (Snieguroczka)"
+#
+#      "polish":
+#        "title":
+#          "pl": "Polskie"
+#          "en": "Polish"
+#        "items":
+#          "01":
+#            "pl": "T.Joteyko „Frottola italiana” z opery „Zygmunt August” (Królowa Bona)"
+#            "en": "T.Joteyko „Frottola italiana” from „Zygmunt August” (Queen Bona Sforza)"
+#          "02":
+#            "pl": "K.Kurpiński „Wiek kwiecisty prędko płynie...” z opery „Leśniczy z Kozienickiej Puszczy” (Zośka)"
+#            "en": "K.Kurpiński „Wiek kwiecisty prędko płynie...” from „Leśniczy z Kozienickiej Puszczy” (Zośka)"
+#          "03":
+#            "pl": "K.Kurpiński „Spojrzenia tkliwe, uczucia żywe...” z opery „Czaromysł” (Wandala)"
+#            "en": "K.Kurpiński „Spojrzenia tkliwe, uczucia żywe...” from „Czaromysł” (Wandala)"
+#          "04":
+#            "pl": "K.Kurpiński „Głęboki smutek przejmuje” z opery „Leśniczy z Kozienieckiej Puszczy” (Ludwika)"
+#            "en": "K.Kurpiński „Głęboki smutek przejmuje” from „Leśniczy z Kozienieckiej Puszczy” (Ludwika)"
+#          "05":
+#            "pl": "K.Kurpiński “Wiek kwiecisty prędko płynie” z opery “Leśniczy z Kozienieckiej Puszczy” (Zośka)"
+#            "en": "K.Kurpiński “Wiek kwiecisty prędko płynie” from “Leśniczy z Kozienieckiej Puszczy” (Zośka)"
+#          "06":
+#            "pl": "S.Moniuszko „Okropny ten poranek... Ach, tyś może śród tej burzy” z opery „Flis” (Zosia)"
+#            "en": "S.Moniuszko „Okropny ten poranek... Ach, tyś może śród tej burzy” from „Flis” (Zosia)"
+#          "07":
+#            "pl": "L.Różycki „Po cierpieniach spokój wraca” z opery „Beatrix Cenci” (Lukrecja)"
+#            "en": "L.Różycki „Po cierpieniach spokój wraca” from „Beatrix Cenci” (Lukrecja)"
+#          "08":
+#            "pl": "L.Różycki „To dawny mój znajomy” z opery „Casanova” (Caton)"
+#            "en": "L.Różycki „To dawny mój znajomy” from „Casanova” (Caton)"
+#          "09":
+#            "pl": "J.Stefani „Jestem dobra jak baranek” z opery „Krakowiacy i Górale” (Basia)"
+#            "en": "J.Stefani „Jestem dobra jak baranek” from „Krakowiacy i Górale” (Basia)"
+#          "10":
+#            "pl": "W.Żeleński „Tam orzeł na turniami...” z opery „Janek” (Bronka)"
+#            "en": "W.Żeleński „Tam orzeł na turniami...” from „Janek” (Bronka)"
+#
+#  "operettaArias":
+#    "title":
+#      "pl": "Operetka"
+#      "en": "Operetta"
+#    "nested": false
+#    "items":
+#      "01":
+#        "pl": "R.Benatzky duet „To musi być cudowna rzecz” z singspielu „Pod białym koniem”"
+#        "en": "R.Benatzky „Es muß was wunderbares sein, von dir geliebt zu werden” from „Im weißen Rößl”"
+#      "02":
+#        "pl": "I.Kalman duet „Ach, jedź do Varasdin” z operetki „Hrabina Marica”"
+#        "en": "I.Kalman „Komm mit nach Varasdin” from „Gräfin Mariza”"
+#      "03":
+#        "pl": "I.Kalman „Czardasz Sylvy” z operetki „Księżniczka czardasza”"
+#        "en": "I.Kalman „Heia heia, in der Bergen” from „Die Csárdásfürstin”"
+#      "04":
+#        "pl": "I.Kalman duet Sylwy i Edwina „Jakże mam Ci wytłumaczyć?” z operetki „Księżniczka czardasza”"
+#        "en": "I.Kalman Silva&Edwin duet „Sich verlieben kann man öfters” from „Die Csárdásfürstin”"
+#      "05":
+#        "pl": "I.Kalman duet Sylvy i Edwina „Tłumy fraków” z operetki „Księżniczka Czardasza”"
+#        "en": "I.Kalman Silva&Edwin duet „Heller Jubel, Händedrücke” from „Die Csárdásfürstin”"
+#      "06":
+#        "pl": "F.Lehar „Kiedy skrzypki grają” z operetki „Cygańska miłość” (Ilona)"
+#        "en": "F.Lehar „Hör'ich Cymbalklänge” from „Zigeunerliebe” (Ilona)"
+#      "07":
+#        "pl": "F.Lehar „Kto me usta całuje, ten śni” z operetki “Giuditta” (Giuditta)"
+#        "en": "F.Lehar „Meine Lippen, sie küssen so heiß” from “Giuditta” (Giuditta)"
+#      "08":
+#        "pl": "F.Lehar „Miłość to niebo na ziemi” z operetki „Paganini”"
+#        "en": "F.Lehar „Liebe, du Himmel auf Erden” from „Paganini”"
+#      "09":
+#        "pl": "F.Lehar “Pieśń o Wilii” z operetki “Wesoła wdówka” (Hanna Glawari)"
+#        "en": "F.Lehar “Vilja-Lied” from “Die lustige Witwe” (Hanna Glawari)"
+#      "10":
+#        "pl": "F.Lehar duet Hanny i Daniło „Usta milczą, dusza śpiewa” z operetki „Wesoła wdówka”"
+#        "en": "F.Lehar Hanna&Danilo duet „Lippen schweigen” from “Die lustige Witwe”"
+#      "11":
+#        "pl": "F.Löwe „Przetańczyć całą noc” z musicalu „My fair lady”"
+#        "en": "F.Löwe „I could have danced all night” from „My fair lady”"
+#      "12":
+#        "pl": "J.Offenbach „Aria ze śmiechem” z operetki „Perichola”"
+#        "en": "J.Offenbach „Ah quel diner” from „La Perichole”"
+#      "13":
+#        "pl": "J.Strauss  duet Saffi i Barinkaya „Kto ślub nam dał?” z operetki „Baron cygański”"
+#        "en": "J.Strauss  Saffi&Barinkay duet „Wer uns getraut? From „Der Zigeunerbaron”"
+#      "14":
+#        "pl": "J.Strauss „Kuplety Adeli” („W roli skromnego dziewczęcia…”) z operetki „Zemsta nietoperza”"
+#        "en": "J.Strauss „Couplet of Adele” („Spiel' ich die Unschuld vom Lande…”) from „Die Fledermaus”"
+#      "15":
+#        "pl": "J.Strauss „Aria ze śmiechem” („Taki pan, jak pan…”) z operetki „Zemsta nietoperza”"
+#        "en": "J.Strauss „Adele’s Laughing Song” („Mein Herr, Marquis…”) from „Die Fledermaus”"
+#
+#  "sacredArias":
+#    "title":
+#      "pl": "Arie Sakralne"
+#      "en": "Sacred Arias"
+#    "nested": false
+#    "items":
+#      "01":
+#        "pl": "G.B.Pergolesi „Vidit suum” z oratorium „Stabat mater”"
+#        "en": "G.B.Pergolesi „Vidit suum” from „Stabat mater”"
+#      "02":
+#        "pl": "J.S.Bach „Quia respexit” z „Magnificat”"
+#        "en": "J.S.Bach „Quia respexit” from „Magnificat”"
+#      "03":
+#        "pl": "J.S.Bach „Er hat uns allen wohlgetan... Aus Liebe will mein Heiland sterben” z “Pasji wg św.Mateusza”"
+#        "en": "J.S.Bach „Er hat uns allen wohlgetan... Aus Liebe will mein Heiland sterben” from “Die Matthäus-Passion”"
+#      "04":
+#        "pl": "G.Faure “Pie Jesu” z “Requiem”"
+#        "en": "G.Faure “Pie Jesu” from “Requiem”"
+#      "05":
+#        "pl": "J.Haydn “Nun beut die Flur das frische Grün” z oratorium “Stworzenie świata”(Gabriel)"
+#        "en": "J.Haydn “Nun beut die Flur das frische Grün” from “Die Schöpfung”(Gabriel)"
+#      "06":
+#        "pl": "F.Mendelssohn-Bartholdy “Jerusalem, Jerusalem” z oratorium “Paulus”"
+#        "en": "F.Mendelssohn-Bartholdy “Jerusalem, Jerusalem” from “Paulus”"
+#
+#  "songs":
+#    "title":
+#      "pl": "Pieśni"
+#      "en": "Songs"
+#    "nested": true
+#    "items":
+#      "french":
+#        "title":
+#          "pl": "Francuskie"
+#          "en": "French"
+#        "items":
+#          "01":
+#            "pl": "S.Barber „Puisque tout passe”"
+#            "en": "S.Barber „Puisque tout passe”"
+#          "02":
+#            "pl": "C.Chaminade „Tu me dirais”"
+#            "en": "C.Chaminade „Tu me dirais”"
+#          "03":
+#            "pl": "C.Chaminade „Si j’étais jardinier”"
+#            "en": "C.Chaminade „Si j’étais jardinier”"
+#          "04":
+#            "pl": "C.Debussy „Nuit d’étoiles”"
+#            "en": "C.Debussy „Nuit d’étoiles”"
+#          "05":
+#            "pl": "H.Duparc “Extase”"
+#            "en": "H.Duparc “Extase”"
+#          "06":
+#            "pl": "R.Hahn „Si mes vers avaient des ailes”"
+#            "en": "R.Hahn „Si mes vers avaient des ailes”"
+#          "07":
+#            "pl": "F.Liszt „Oh, quand je dors”"
+#            "en": "F.Liszt „Oh, quand je dors”"
+#          "08":
+#            "pl": "J.Szulc „Claire de lune”"
+#            "en": "J.Szulc „Claire de lune”"
+#      "russian":
+#        "title":
+#            "pl": "Rosyjskie"
+#            "en": "Russian"
+#        "items":
+#          "01":
+#            "pl": "M.Minkow „Пейзаж”"
+#            "en": "M.Minkow „Пейзаж”"
+#          "02":
+#            "pl": "S.Rachmaninow „Полюбилая”"
+#            "en": "S.Rachmaninow „Полюбилая”"
+#          "03":
+#            "pl": "S.Rachmaninow „Здесь хорошо”"
+#            "en": "S.Rachmaninow „Здесь хорошо”"
+#          "04":
+#            "pl": "S.Rachmaninow „Не пой красавица при мне”"
+#            "en": "S.Rachmaninow „Не пой красавица при мне”"
+#          "05":
+#            "pl": "M.Rimski-Korsakow „Не ветер вея с высоты”"
+#            "en": "M.Rimski-Korsakow „Не ветер вея с высоты”"
+#          "06":
+#            "pl": "M.Rimski-Korsakow „О чем в тиши ночей”"
+#            "en": "M.Rimski-Korsakow „О чем в тиши ночей”"
+#          "07":
+#            "pl": "A.Rubinstein „Ночь”"
+#            "en": "A.Rubinstein „Ночь”"
+#      "german":
+#        "title":
+#          "pl": "Niemieckie"
+#          "en": "German"
+#        "items":
+#          "01":
+#            "pl": "R.Schumann “Das Lied der Suleika” z cyklu „Liederkreis”"
+#            "en": "R.Schumann “Das Lied der Suleika” from „Liederkreis”"
+#          "02":
+#            "pl": "R.Schumann „Die Lotosblume” z cyklu „Liederkreis”"
+#            "en": "R.Schumann „Die Lotosblume” from „Liederkreis”"
+#          "03":
+#            "pl": "R.Schumann „Mondnacht” z cyklu „Liederkreis”"
+#            "en": "R.Schumann „Mondnacht” from „Liederkreis”"
+#      "polish":
+#        "title":
+#          "pl": "Polskie"
+#          "en": "Polish"
+#        "items":
+#          "01":
+#            "pl": "F.Chopin „Piosnka litewska”"
+#            "en": "F.Chopin „Piosnka litewska”"
+#          "02":
+#            "pl": "F.Chopin „Poseł”"
+#            "en": "F.Chopin „Poseł”"
+#          "03":
+#            "pl": "F.Chopin „Wiosna”"
+#            "en": "F.Chopin „Wiosna”"
+#          "04":
+#            "pl": "J.Gablenz „Ty nie wiesz nawet jak mi źle”"
+#            "en": "J.Gablenz „Ty nie wiesz nawet jak mi źle”"
+#          "05":
+#            "pl": "M.Karłowicz “Rdzawe liście”"
+#            "en": "M.Karłowicz “Rdzawe liście”"
+#          "06":
+#            "pl": "F.Maklakiewicz “A jeśli chcesz zapomnieć”"
+#            "en": "F.Maklakiewicz “A jeśli chcesz zapomnieć”"
+#          "07":
+#            "pl": "F.Maklakiewicz “Kocham Cię”"
+#            "en": "F.Maklakiewicz “Kocham Cię”"
+#          "08":
+#            "pl": "S.Moniuszko “Dumka”"
+#            "en": "S.Moniuszko “Dumka”"
+#          "09":
+#            "pl": "S.Moniuszko „Złota rybka”"
+#            "en": "S.Moniuszko „Złota rybka”"
+#          "10":
+#            "pl": "S.Niewiadomski „Otwórz, Janku”"
+#            "en": "S.Niewiadomski „Otwórz, Janku”"
+#          "11":
+#            "pl": "S.Niewiadomski „Śmieją się złote łany”"
+#            "en": "S.Niewiadomski „Śmieją się złote łany”"
+#          "12":
+#            "pl": "F.Nowowiejski „Pieśń miłosna”"
+#            "en": "F.Nowowiejski „Pieśń miłosna”"
+#          "13":
+#            "pl": "H.Opieński „Idzie na pola, idzie na bory”"
+#            "en": "H.Opieński „Idzie na pola, idzie na bory”"
+#          "14":
+#            "pl": "H.Opieński „Spokojnie, zimno, patrzą oczy gwiazd”"
+#            "en": "H.Opieński „Spokojnie, zimno, patrzą oczy gwiazd”"
+#          "15":
+#            "pl": "I.J.Paderewski „Gdy ostatnia róża zwiędła” z cyklu „4 pieśni do tekstów Asnyka”"
+#            "en": "I.J.Paderewski „Gdy ostatnia róża zwiędła” from „4 Songs to Poems by Adam Asnyk”"
+#          "16":
+#            "pl": "I.J.Paderewski „Lune froide” z cyklu „12 pieśni do słów Mendèsa”"
+#            "en": "I.J.Paderewski „Lune froide” from „12 Songs to Poems by Catulle Mendès”"
+#          "17":
+#            "pl": "I.J.Paderewski „Moja pieszczotka” z cyklu „6 pieśni do słów Mickiewicza”"
+#            "en": "I.J.Paderewski „Moja pieszczotka” from „6 Songs to Poems by Adam Mickiewicz”"
+#          "18":
+#            "pl": "I.J.Paderewski „Nad wodą wielką i czystą” z cyklu „6 pieśni do słów Mickiewicza”"
+#            "en": "I.J.Paderewski „Nad wodą wielką i czystą” from „6 Songs to Poems by Adam Mickiewicz”"
+#          "19":
+#            "pl": "I.J.Paderewski „Ton coeur est d’or pur” z cyklu „12 pieśni do słów Mendèsa”"
+#            "en": "I.J.Paderewski „Ton coeur est d’or pur” from „12 Songs to Poems by Catulle Mendès”"
+#          "20":
+#            "pl": "P.Perkowski „Uty japońskie” (cały cykl)"
+#            "en": "P.Perkowski „Japanese songs”"
+#          "21":
+#            "pl": "L.Różycki „Aaa... kotki dwa”"
+#            "en": "L.Różycki „Aaa... kotki dwa”"
+#          "22":
+#            "pl": "K.Szymanowski “Kołysanka Dzieciątka Jezus”"
+#            "en": "K.Szymanowski “Christkindleins Wiegenlied”"
+#          "23":
+#            "pl": "K.Szmanowski „Zielone słowa”"
+#            "en": "K.Szmanowski „Zielone słowa”"
+#          "24":
+#            "pl": "W.Żeleński „Blada róża”"
+#            "en": "W.Żeleński „Blada róża”"
+
+  "operas":
+    "title":
+      "pl": "Opery"
+      "en": "Operas"
+    "nested": false
+    "items":
+      "01":
+        "pl": "V.Bellini „Capuleti e i Montecchi”: Giulietta"
+        "en": "V.Bellini „Capuleti e i Montecchi”: Giulietta"
+      "02":
+        "pl": "G.Bizet „Carmen”: Micaëla"
+        "en": "G.Bizet „Carmen”: Micaëla"
+      "03":
+        "pl": "G.F.Händel „Rodelinda”: Rodelinda"
+        "en": "G.F.Händel „Rodelinda”: Rodelinda"
+      "04":
+        "pl": "W.A.Mozart „Wesele Figara”: Zuzanna"
+        "en": "W.A.Mozart „Le Nozze di Figaro”: Susanna"
+      "05":
+        "pl": "W.A.Mozart „Czarodziejski Flet”: Pamina"
+        "en": "W.A.Mozart „Die Zauberflöte”: Pamina"
+      "06":
+        "pl": "H.Purcell „Dydona i Eneasz”: Dydona"
+        "en": "H.Purcell „Dido and Aeneas”: Dido"
+      "07":
+        "pl": "H.Purcell „The Fairyqueen”: Nyph, Night"
+        "en": "H.Purcell „The Fairyqueen”: Nyph, Night"
+
+  "oratorios":
+    "title":
+      "pl": "Oratoria"
+      "en": "Oratorios"
+    "nested": false
+    "items":
+      "01":
+        "pl": "J.S.Bach – Kantata BWV4 „Christ lag in Todes Banden”"
+        "en": "J.S.Bach – Cantate BWV4 „Christ lag in Todes Banden”"
+      "02":
+        "pl": "J.S.Bach – Kantata BWV140 „Wachet auf, ruft uns die Stimme”"
+        "en": "J.S.Bach – Cantate BWV140 „Wachet auf, ruft uns die Stimme”"
+      "03":
+        "pl": "J.S.Bach – Kantata BWV51 „Jauchzet Gott in allen Landen”"
+        "en": "J.S.Bach – Cantate BWV51 „Jauchzet Gott in allen Landen”"
+      "04":
+        "pl": "L. van Beethoven „IX Symfonia”"
+        "en": "L. van Beethoven „Symphony no.9”"
+      "05":
+        "pl": "A.Dvořak „Msza D-dur”"
+        "en": "A.Dvořak „Messe in d major”"
+      "06":
+        "pl": "G.Fauré „Requiem”"
+        "en": "G.Fauré „Requiem”"
+      "07":
+        "pl": "J.Haydn „Msza nelsońska”"
+        "en": "J.Haydn „Messe in augustiis”"
+      "08":
+        "pl": "J.Haydn „Stworzenie świata”"
+        "en": "J.Haydn „Die Schöpfung”"
+      "09":
+        "pl": "G.F.Händel „Dixit Dominus”"
+        "en": "G.F.Händel „Dixit Dominus”"
+      "10":
+        "pl": "G.Majka „Mgła”"
+        "en": "G.Majka „Mgła”"
+      "11":
+        "pl": "W.A.Mozart „Requiem d-moll”"
+        "en": "W.A.Mozart „Requiem in d minor”"
+      "12":
+        "pl": "W.A.Mozart „Msza c-moll”"
+        "en": "W.A.Mozart „Messe in c minor”"
+      "13":
+        "pl": "C.Orff „Carmina burana”"
+        "en": "C.Orff „Carmina burana”"
+      "14":
+        "pl": "G.B.Pergolesi „Stabat Mater”"
+        "en": "G.B.Pergolesi „Stabat Mater”"
+      "15":
+        "pl": "C. Saint-Saëns „Oratorium na Boże Narodzenie”"
+        "en": "C. Saint-Saëns „Oratorio de Noël”"
+
+  "operettas":
+    "title":
+      "pl": "Operetki"
+      "en": "Operetta"
+    "nested": false
+    "items":
+      "01":
+        "pl": "F.Lehár „Wesoła wdówka”: Hanna Glawari"
+        "en": "F.Lehár „Die lustige Witwe”: Hanna Glawari"
+
+#  "duets":
+#    "title":
+#      "pl": "Duety"
+#      "en": "Duets"
+#    "nested": false
+#    "items":
+#      "01":
+#        "pl": "P.Czajkowski scena finałowa z opery „Eugeniusz Oniegin”"
+#        "en": "P.Czajkowski Final Scene from „Eugene Oniegin”"
+#      "02":
+#        "pl": "L.Delibes duet kwiatów z opery „Lakmé”"
+#        "en": "L.Delibes “Flower Duet” from „Lakmé”"
+#      "03":
+#        "pl": "F.Lehar duet Hanny i Daniło „Usta milczą, dusza śpiewa” z operetki „Wesoła wdówka”"
+#        "en": "F.Lehar Hanna&Danilo duet „Lippen schweigen” from “Die lustige Witwe”"
+#      "04":
+#        "pl": "W.A.Mozart duet Zuzanny i Hrabiego “Crudel, perchè finora” z opery „Wesele Figara”"
+#        "en": "W.A.Mozart Susanna&Conte duet “Crudel, perchè finora” from „Le Nozze di Figaro”"
+#      "05":
+#        "pl": "W.A.Mozart duet Zuzanny i Figara „Cinque, dieci” z opery „Wesele Figara”"
+#        "en": "W.A.Mozart Susanna&Figaro duet „Cinque, dieci” from „Le Nozze di Figaro”"
+#      "06":
+#        "pl": "W.A.Mozart duet Zuzanny i Figara „Se a caso madama” z opery „Wesele Figara”"
+#        "en": "W.A.Mozart Susanna&Figaro duet „Se a caso madama” from „Le Nozze di Figaro”"
+#      "07":
+#        "pl": "W.A.Mozart duet Zuzanny i Marcelliny „Via resti servita” z opery „Wesele Figara”"
+#        "en": "W.A.Mozart Susanna&Marcellina duet „Via resti servita” from „Le Nozze di Figaro”"
+#      "08":
+#        "pl": "W.A.Mozart duet Zuzanny i Hrabiny „Sull’aria” z opery „Wesele Figara”"
+#        "en": "W.A.Mozart Susanna&Contessa duet „Sull’aria” from „Le Nozze di Figaro”"
+#      "09":
+#        "pl": "W.A.Mozart duet Zerliny i Don Giovanniego „La ci darem la mano” z opery „Don Giovanni”"
+#        "en": "W.A.Mozart Zerlina&Don Giovanni duet „La ci darem la mano” from „Don Giovanni”"
+#      "10":
+#        "pl": "W.A.Mozart Guglielmo i Dorabelli duet „Il core vi dono” z opery „Così fan tutte”"
+#        "en": "W.A.Mozart Guglielmo&Dorabella duet „Il core vi dono” from „Così fan tutte”"
+#      "11":
+#        "pl": "W.A.Mozart duet Anniusa i Servilii „Ah, perdona al primo affetto” z opery „Łaskawość Tytusa”"
+#        "en": "W.A.Mozart Annius&Servillia duet „Ah, perdona al primo affetto” from “Clemenza di Tito”"
+#      "12":
+#        "pl": "G.Puccini duet Toski i Mario „Mario, Mario... Or lasciami al lavoro” z opery „Tosca”"
+#        "en": "G.Puccini Tosca&Mario duet „Mario, Mario... Or lasciami al lavoro” from „Tosca”"
+#      "13":
+#        "pl": "G.Rossini duet „La regata veneziana”"
+#        "en": "G.Rossini duet „La regata veneziana”"
+#      "14":
+#        "pl": "G.Verdi Violetta&Germont duet „Madamigella Valery... Imponete...” z opery “Traviata”"
+#        "en": "G.Verdi Violetta&Germont duet „Madamigella Valery... Imponete...” from “Traviata”"
+
+recordings:
+  "live":
+    "title":
+      "pl": Live
+      "en": Live
+    "items":
+      "01":
+        "pl":  "G.Puccini – aria Mimi „Si, mi chiamano Mimi” z opery „Cyganeria”"
+        "en":  "Mimi’s aria „Si, mi chiamano Mimi” from Puccini’s opera „La Boheme”"
+        "url": "https://www.youtube.com/embed/uDleknQ5g4k"
+      "02":
+        "pl":  "Z.Merta – „Ave Maria” z „Via Lucis”"
+        "en":  "„Ave Maria” from Merta’s „Via Lucis”"
+        "url": "https://www.youtube.com/embed/cJIMoXqP9KQ"
+      "03":
+        "pl":  "W.A.Mozart - aria Paminy „Ach, ich fühl’s” z opery ”Czarodziejski flet”"
+        "en":  "Pamina’s aria „Ach, ich fühl’s” from Mozart’s opera „Die Zauberflöte”"
+        "url": "https://www.youtube.com/embed/eKKcvaKO9Aw"
+      "04":
+        "pl":  "A.Dvořák - aria Rusałki „Měsíčku na nebi hlubokém” z opery „Rusałka”"
+        "en":  "Rusalka's aria „Měsíčku na nebi hlubokém” from Dvořák's opera „Rusalka”"
+        "url": "https://www.youtube.com/embed/9KH5qy36h3A"
+      "05":
+        "pl":  "G.Bizet - aria Micaëli „C'est des contrebandiers... Je dis...” z opery „Carmen”"
+        "en":  "Micaëla's aria „C'est des contrebandiers... Je dis...” from Bizet's opera „Carmen”"
+        "url": "https://www.youtube.com/embed/YT4m0xD5ITM"
+      "06":
+        "pl":  "F.Maklakiewicz „Kocham Cię”"
+        "en":  "F.Maklakiewicz „Kocham Cię”"
+        "url": "https://www.youtube.com/embed/fPJOed8c-VQ"
+  "demos":
+    "title":
+      "pl": Demo
+      "en": Demo
+    "items":
+      "01":
+        "pl":  "W.A.Mozart - aria Paminy „Ach, ich fühl’s” z opery „Czarodziejski flet”"
+        "en":  "Pamina’s aria „Ach, ich fühl’s” from Mozart’s opera „Die Zauberflöte”"
+        "url": "https://www.youtube.com/embed/svSoOg-FyyM"
+      "02":
+        "pl":  "G.Bizet – aria Micaëli „C’est des contrebandiers... Je dis...” z opery „Carmen”"
+        "en":  "Micaëla’s aria „C’est des contrebandiers... Je dis...” from Bizet’s opera „Carmen”"
+        "url": "https://www.youtube.com/embed/vsefrTkmQNk"
+      "03":
+        "pl":  "G.Puccini – aria Magdy „Chi il bel sogno di Doretta” z opery „Jaskółka”"
+        "en":  "Magda’s aria „Chi il bel sogno di Doretta” from Puccini’s opera „La Rondine”"
+        "url": "https://www.youtube.com/embed/-wKyDWcQNqM"
+
+events:
+  "2020-03-08":
+    "date":
+      "pl": "8 marca 2020"
+      "en": "8 March 2020"
+    "tickets": ""
+    "url": ""
+    "online": ""
+    "title":
+      "pl": "Wieczór z arią"
+      "en": "An evening of aria"
+    "place":
+      "pl": "Spółdzielczy Dom Kultury - Rumia Janowo"
+      "en": "Community Centre - Rumia Janowo"
+  "2020-03-10":
+    "date":
+      "pl": "10 marca 2020"
+      "en": "10 March 2020"
+    "tickets": ""
+    "url": ""
+    "online": ""
+    "title":
+      "pl": "Wieczór z arią"
+      "en": "An evening of aria"
+    "place":
+      "pl": "Władysławowo"
+      "en": "Władysławowo"
+  "2020-03-21":
+    "date":
+      "pl": "21 marca 2020"
+      "en": "21 March 2020"
+    "tickets": ""
+    "url": ""
+    "online": ""
+    "title":
+      "pl": "ODWOŁANY! - Koncert pieśni polskich"
+      "en": "CANCELLED! - Recital of polish songs"
+    "place":
+      "pl": "Radio Gdańsk - Studio Koncertowe im. Janusza Hajduna"
+      "en": "Radio Gdańsk - Janusz Hajdun's Concert Studio"
+  "2020-03-27":
+    "date":
+      "pl": "27 marca 2020"
+      "en": "27 March 2020"
+    "tickets": "https://ewejsciowki.pl/embedded/rezerwacja/174478"
+    "url": "https://operakrolewska.pl/repetoire/dziady-widma-mickiewicz-moniuszko-22032020/"
+    "online": ""
+    "title":
+      "pl": "ODWOŁANY! - Dziady - Widma"
+      "en": "CANCELLED! - Dziady - Widma"
+    "place":
+      "pl": "Polska Opera Królewska w Warszawie"
+      "en": "Polish Royal Opera in Warsaw"
+  "2020-04-25":
+    "date":
+      "pl": "25 kwietnia 2020"
+      "en": "25 April 2020"
+    "tickets": "https://www.bilety24.pl/kup-bilet-na-opera-si-6448?id=259684"
+    "url": "https://operabaltycka.pl/pl/repertuar/opera-si/2020-04-25"
+    "online": ""
+    "title":
+      "pl": "ODWOŁANY! - Opera? Si!"
+      "en": "CANCELLED! - Opera? Si!"
+    "place":
+      "pl": "Opera Bałtycka w Gdańsku"
+      "en": "Baltic Opera in Gdańsk"
+  "2020-05-03 11:30":
+    "date":
+      "pl": "3 maja 2020"
+      "en": "3 May 2020"
+    "tickets": ""
+    "url": ""
+    "online": ""
+    "title":
+      "pl": "ODWOŁANY! - Ave Maria"
+      "en": "CANCELLED! - Ave Maria"
+    "place":
+      "pl": "Kościół pw. Niepokalanego Poczęcia NMP w Ostrowie"
+      "en": "Immaculate Conception's Church in Ostrowo"
+  "2020-05-03 19:00":
+    "date":
+      "pl": "3 maja 2020"
+      "en": "3 May 2020"
+    "tickets": ""
+    "url": ""
+    "online": ""
+    "title":
+      "pl": "ODWOŁANY! - Ave Maria"
+      "en": "CANCELLED! - Ave Maria"
+    "place":
+      "pl": "Kościół Gwiazda Morza w Sopocie"
+      "en": "The Star of the Sea Church in Sopot"
+  "2020-05-09":
+    "date":
+      "pl": "9 maja 2020"
+      "en": "9 May 2020"
+    "tickets": ""
+    "url": "https://amuz.gda.pl/wydarzenia/preludium-recital-soni-warzynskiej-dettlaff-z-cyklu-amuz-w-radiu-gdansk,366"
+    "online": "https://radiogdansk.pl/sluchaj-rg-kanaly"
+    "title":
+      "pl": "Gdański Festiwal Muzyczny - Recital"
+      "en": "Gdansk Music Festival - Recital"
+    "place":
+      "pl": "Radio Gdańsk - Studio Koncertowe im. Janusza Hajduna"
+      "en": "Radio Gdańsk - Janusz Hajdun's Concert Studio"
+  "2020-07-16":
+    "date":
+      "pl": "16 lipca 2020"
+      "en": "16 July 2020"
+    "tickets": ""
+    "url": "https://tps-dworek.pl/czwartkowe-wieczory-muzyczne-ponownie-w-dworku-od-18-06-2020/"
+    "online": ""
+    "title":
+      "pl": "Recital pieśni słowiańskich"
+      "en": "Recital of slavic songs"
+    "place":
+      "pl": "Dworek Sierakowskich w Sopocie"
+      "en": "The Sierakowski's Manor in Sopot"
+  "2020-07-30":
+    "date":
+      "pl": "30 lipca 2020"
+      "en": "30 July 2020"
+    "tickets": ""
+    "url": "https://tps-dworek.pl/czwartkowe-wieczory-muzyczne-ponownie-w-dworku-od-18-06-2020/"
+    "online": ""
+    "title":
+      "pl": "Koncert arii i duetów operowych"
+      "en": "Concert of opera arias and duets"
+    "place":
+      "pl": "Dworek Sierakowskich w Sopocie"
+      "en": "The Sierakowski's Manor in Sopot"
+  "2020-08-11":
+    "date":
+      "pl": "11 sierpnia 2020"
+      "en": "11 August 2020"
+    "tickets": "http://www.festiwalkiepury.pl/bilety_13_0.html"
+    "url": "http://www.festiwalkiepury.pl/home.html"
+    "online": ""
+    "title":
+      "pl": "ODWOŁANY! - Koncert ESTRADA MŁODYCH w ramach 54. Festiwalu im. Jana Kiepury"
+      "en": "CANCELLED! - THE STAGE FOR YOUNG ARTISTS Concert during the 54th Jan Kiepura Festival"
+    "place":
+      "pl": "Krynica-Zdrój"
+      "en": "Krynica-Zdrój"
+  "2020-11-14":
+    "date":
+      "pl": "14 listopada 2020"
+      "en": "14 November 2020"
+    "tickets": ""
+    "url": "https://teatrwielki.pl/repertuar/kalendarium/2020-2021/czarodziejski-flet/"
+    "online": ""
+    "title":
+      "pl": "Czarodziejski flet"
+      "en": "Die Zauberflöte"
+    "place":
+      "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
+      "en": "The Grand Theatre - Opera National in Warsaw"
+  "2020-12-09":
+    "date":
+      "pl": "9 grudnia 2020"
+      "en": "9 December 2020"
+    "tickets": ""
+    "url": "https://teatrwielki.pl/repertuar/kalendarium/2020-2021/czarodziejski-flet/"
+    "online": ""
+    "title":
+      "pl": "Czarodziejski flet"
+      "en": "Die Zauberflöte"
+    "place":
+      "pl": "Teatr Wielki - Opera Narodowa w Warszawie"
+      "en": "The Grand Theatre - Opera National in Warsaw"
+  "2020-12-27":
+    "date":
+      "pl": "27 grudnia 2020"
+      "en": "27 December 2020"
+    "tickets": "https://live.bilety24.pl/event/index/88f3c9a88e7d7f94ce3bee5452b99a34c97028b1"
+    "url": "http://operabaltycka.pl/pl/repertuar/opera-si/2020-12-27#0"
+    "online": "https://live.bilety24.pl/event/index/88f3c9a88e7d7f94ce3bee5452b99a34c97028b1"
+    "title":
+      "pl": "Opera? Si! - koncert online"
+      "en": "Opera? Si! - online concert"
+    "place":
+      "pl": "Opera Bałtycka w Gdańsku"
+      "en": "The Baltic Opera in Gdansk"
+  "2021-05-03":
+    "date":
+      "pl": "3 maja 2021"
+      "en": "3 May 2021"
+    "tickets": ""
+    "url": "https://operakrolewska.pl/repetoire/slowik-maciej-kamienski-wersja-koncertowa/"
+    "online": "https://www.youtube.com/channel/UC-m28nt18Ep1aSp8bZIgLfQ/featured"
+    "title":
+      "pl": "Słowik/Maciej Kamieński - wersja koncertowa, streaming"
+      "en": "Słowik/Maciej Kamieński - concert version, streaming"
+    "place":
+      "pl": "Polska Opera Królewska"
+      "en": "The Polish Royal Opera"
+  "2021-06-04":
+    "date":
+      "pl": "4 czerwca 2021"
+      "en": "4 June 2021"
+    "tickets": ""
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5290"
+    "online": ""
+    "title":
+      "pl": "Così Fan Tutte"
+      "en": "Così Fan Tutte"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wroclaw"
+  "2021-06-06":
+    "date":
+      "pl": "6 czerwca 2021"
+      "en": "6 June 2021"
+    "tickets": ""
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5290"
+    "online": ""
+    "title":
+      "pl": "Così Fan Tutte"
+      "en": "Così Fan Tutte"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wroclaw"
+  "2021-06-10":
+    "date":
+      "pl": "10 czerwca 2021"
+      "en": "10 June 2021"
+    "tickets": ""
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5290"
+    "online": ""
+    "title":
+      "pl": "Così Fan Tutte"
+      "en": "Così Fan Tutte"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wroclaw"
+  "2021-06-12":
+    "date":
+      "pl": "12 czerwca 2021"
+      "en": "12 June 2021"
+    "tickets": ""
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5290"
+    "online": ""
+    "title":
+      "pl": "Così Fan Tutte"
+      "en": "Così Fan Tutte"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wroclaw"
+  "2021-08-08":
+    "date":
+      "pl": "8 sierpnia 2021"
+      "en": "8 August 2021"
+    "tickets": "https://ekobilet.pl/centrum-kultury-krynica-zdroj/estrada-mlodychmlode-gwiazdy-sceny-operowej-38018/437670-bilety-na-koncert"
+    "url": "https://festiwalkiepury.pl/program_12_0.html"
+    "online": ""
+    "title":
+      "pl": "54. Festiwal im.Jana Kiepury"
+      "en": "54th Jan Kiepura Festival"
+    "place":
+      "pl": "Krynica-Zdrój"
+      "en": "Krynica-Zdrój"
+  "2021-10-16":
+    "date":
+      "pl": "16 października 2021"
+      "en": "16 October 2021"
+    "tickets": "https://bilety.opera.wroclaw.pl/rezerwacja/numerowane.html?id=1170&identyfikator=b91a87e947887f7a21f2ccc18f619544"
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5345"
+    "online": ""
+    "title":
+      "pl": "Wolny Strzelec"
+      "en": "Der Freischütz"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wrocławska"
+  "2021-10-22":
+    "date":
+      "pl": "22 października 2021"
+      "en": "22 October 2021"
+    "tickets": "https://bilety.opera.wroclaw.pl/rezerwacja/numerowane.html?id=1174&identyfikator=f78a2e8790646919f51361928d657527"
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5348"
+    "online": ""
+    "title":
+      "pl": "Wolny Strzelec"
+      "en": "Der Freischütz"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wrocławska"
+  "2021-10-24":
+    "date":
+      "pl": "24 października 2021"
+      "en": "24 October 2021"
+    "tickets": "https://bilety.opera.wroclaw.pl/rezerwacja/numerowane.html?id=1177&identyfikator=607c4904b758609f79a94a485d443112"
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5350"
+    "online": ""
+    "title":
+      "pl": "Wolny Strzelec"
+      "en": "Der Freischütz"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wrocławska"
+  "2022-02-04":
+    "date":
+      "pl": "4 lutego 2022"
+      "en": "4 February 2022"
+    "tickets": ""
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5393"
+    "online": ""
+    "title":
+      "pl": "Così fan tutte"
+      "en": "Così fan tutte"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wrocławska"
+  "2022-02-06":
+    "date":
+      "pl": "6 lutego 2022"
+      "en": "6 February 2022"
+    "tickets": ""
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5395"
+    "online": ""
+    "title":
+      "pl": "Così fan tutte"
+      "en": "Così fan tutte"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wrocławska"
+  "2022-03-04":
+    "date":
+      "pl": "4 marca 2022"
+      "en": "4 March 2022"
+    "tickets": ""
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5404"
+    "online": ""
+    "title":
+      "pl": "Cyganeria"
+      "en": "La Bohème"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wrocławska"
+  "2022-03-06":
+    "date":
+      "pl": "6 marca 2022"
+      "en": "6 March 2022"
+    "tickets": ""
+    "url": "https://www.opera.wroclaw.pl/1/spektakl.php?_id=5406"
+    "online": ""
+    "title":
+      "pl": "Cyganeria"
+      "en": "La Bohème"
+    "place":
+      "pl": "Opera Wrocławska"
+      "en": "Opera Wrocławska"

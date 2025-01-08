@@ -1,0 +1,91 @@
+{% include html-header.html %}
+
+<div id="page" class="site">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+{% include content-menu.html %}
+
+    <div id="content" class="site-content">
+{{ content }}
+    </div><!-- #content -->
+
+    <div class="footer-image lodestar-panel  has-footer-image" style="background-image: url(/p/i/g/didoandaeneas/didoandaeneas7.jpg)">
+        <span class="panel lodestar-footer-settings">
+            <span class="lodestar-panel-title">Footer Image</span>
+        </span>
+    </div>
+
+{% include content-footer.html %}
+
+</div><!-- #page -->
+
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/gprofiles.js?ver=201849y"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var WPGroHo = {"my_hash":""};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h"></script>
+
+<script>
+    //initialize and attach hovercards to all gravatars
+    jQuery( document ).ready( function( $ ) {
+
+        if (typeof Gravatar === "undefined"){
+            return;
+        }
+
+        if ( typeof Gravatar.init !== "function" ) {
+            return;
+        }
+
+        Gravatar.profile_cb = function( hash, id ) {
+            WPGroHo.syncProfileData( hash, id );
+        };
+        Gravatar.my_hash = WPGroHo.my_hash;
+        Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+    });
+</script>
+
+<div style="display:none"></div>
+
+{% comment %}
+<!-- ------------------------------------------------ old --------------- footer -->
+
+    <footer class="container">
+        <div class="row">
+          <div class="col-md-6">          
+            <address class="personal"> 
+              <strong><a href="http://soniawarzynska.com"    title="Website">Sonia Warzyńska-Dettlaff</a></strong><br>
+              <a href="mailto:contact@soniawarzynska.com"    title="Email">contact@soniawarzynska.com</a><br>
+              <a href="https://maps.google.pl/maps?q=Poland" title="Adress" target="_blank">Poland</a><br>
+            </address>        
+            <div class="social">     
+              <a href="https://twitter.com/sonia_warzynska"           title="Twitter"     target="_blank"><img src="/p/ico/twitter.png"    alt="Follow Sonia on Twitter" /></a>
+              <a href="https://facebook.com/soniawarzynskasopran"     title="Facebook"    target="_blank"><img src="/p/ico/facebook.png"   alt="Like Sonia on Facebook" /></a>
+              <a href="https://plus.google.com/+SoniaWarzynskaSopran" title="Google Plus" target="_blank"><img src="/p/ico/googleplus.png" alt="Follow Sonia on Google Plus" /></a>
+              <a href="https://youtube.com/soniawarzynskasopran"      title="YouTube"     target="_blank"><img src="/p/ico/youtube.png"    alt="Subscribe Sonia on YouTube" /></a>
+              <a href="https://www.instagram.com/sonia.warzynska/"    title="Instagram"   target="_blank"><img src="/p/ico/instagram.png"  alt="Subscribe Sonia on Instagram" /></a>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+<!-- js -->
+
+    <!--<script src="/p/js/bootstrap.min.js"></script>-->
+
+    <script>
+        $(document).ready(function() {
+            $(window).on('resize', function() {
+                var container_width = $('#fb-container').width();
+                $('#fb-container div.fb-page').attr('data-width', container_width);
+                FB.XFBML.parse();
+            });
+        });
+    </script>
+{% endcomment %}
+
+{% include html-footer.html %}

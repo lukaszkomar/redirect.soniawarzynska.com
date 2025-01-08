@@ -1,0 +1,26 @@
+{% if page.lang == 'pl' %} 
+<h3>Repertuar:</h3>
+{% else %}
+<h3>Repertoire:</h3>
+{% endif %}
+
+
+
+{% if page.lang == 'pl' %} 
+<a href="/repertuar.pelny">Zobacz pełny repertuar</a>
+{% else %}
+<a href="/repertoire.full">See full repertoire</a>
+{% endif %}
+
+<br/>
+
+<h4>{{ site.repertoire.parts.title[page.lang] }}</h4>
+<ul>
+{% for part in site.repertoire.parts.items %}
+  <li>{{ part[1][page.lang] }}</li> 
+{% endfor %}
+</ul>
+
+
+
+<br/>

@@ -1,0 +1,157 @@
+<header id="masthead" class="site-header" role="banner">
+
+    <div class="header-top">
+        <div class="wrap">
+            <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
+                <button class="menu-toggle" aria-controls="top-menu" aria-expanded="false">Menu</button>
+                <div class="menu-main-menu-container">
+                  <ul id="top-menu" class="menu nav-menu" aria-expanded="false">
+                  {% comment %}
+                    <li id="menu-item-262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262"><a href="/">Home</a></li>
+                    <li id="menu-item-280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280"><a href="https://lodestardemo.wordpress.com/work/?demo">Work</a></li>
+                    <li id="menu-item-205" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-205"><a href="/testimonial">Praise</a></li>
+                    <li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="https://lodestardemo.wordpress.com/news/?demo">News</a></li>
+                    <li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-114" aria-haspopup="true"><a href="https://lodestardemo.wordpress.com/html-elements/?demo">Styles</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="https://lodestardemo.wordpress.com/readability/?demo">Readability</a></li>
+                            <li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-115" aria-haspopup="true"><a href="https://lodestardemo.wordpress.com/a-parent-page/first-child/?demo">First Child</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="https://lodestardemo.wordpress.com/a-parent-page/second-child/a-grandchild-page/?demo">A Grandchild Page</a></li>
+                                    <li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://lodestardemo.wordpress.com/a-parent-page/second-child/another-grandchild-page/?demo">Another Grandchild Page</a></li>
+                                    <li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://lodestardemo.wordpress.com/a-parent-page/second-child/a-spoiled-grandchild-page/?demo">A Spoiled Grandchild Page</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="https://lodestardemo.wordpress.com/a-parent-page/second-child/?demo">Second Child</a></li>
+                        </ul>
+                    </li>
+                  {% endcomment %}
+
+                  {% if page.lang == 'pl' %}
+                      <li class="{% if page.name  == 'biografia.html' %}current_page_item{% endif %} menu-item menu-item-type-custom menu-item-object-custom"><a href="/biografia">Biografia</a></li>
+                      <li class="{% if page.name  == 'kalendarz.html' %}current_page_item{% endif %}"><a href="/kalendarz">Kalendarz</a></li>
+                      <li class="{% if page.name  == 'repertuar.html' %}current_page_item{% endif %}"><a href="/repertuar">Repertuar</a></li>
+                      <li class="{% if page.name  == 'zdjecia.html' or page.name  == 'zdjecia-portrety.html' or page.name  == 'zdjecia-koncerty.html' or page.name  == 'zdjecia-spektakle.html' or page.name  == 'zdjecia-o-wysokiej-rozdzielczosci.html' %}current_page_item{% endif %}"><a href="/zdjecia"  >Zdjęcia</a>
+                          <ul class="sub-menu">
+                              <li class="{% if page.name  == 'zdjecia-portrety.html'                  %}current_page_item{% endif %}"><a href="/zdjecia-portrety"                 >Portrety</a>
+                              <li class="{% if page.name  == 'zdjecia-koncerty.html'                  %}current_page_item{% endif %}"><a href="/zdjecia-koncerty"                 >Koncerty</a>
+                              <li class="{% if page.name  == 'zdjecia-spektakle.html'                 %}current_page_item{% endif %}"><a href="/zdjecia-spektakle"                >Spektakle</a>
+                              <li class="{% if page.name  == 'zdjecia-o-wysokiej-rozdzielczosci.html' %}current_page_item{% endif %}"><a href="/zdjecia-o-wysokiej-rozdzielczosci">Zdjęcia o wysokiej rozdzielczości</a>
+                          </ul>
+                      </li>
+                      <li class="{% if page.name  == 'nagrania.html'  %}current_page_item{% endif %}"><a href="/nagrania" >Nagrania</a></li>
+                      <li class="{% if page.name  == 'prasa.html'     %}current_page_item{% endif %}"><a href="/prasa"    >Prasa</a></li>
+                      <li class="{% if page.name  == 'kontakt.html'   %}current_page_item{% endif %}"><a href="/kontakt"  >Kontakt</a></li>
+                  {% else %}
+                      <li class="{% if page.name  == 'biography.html'  %}current_page_item{% endif %}"><a href="/biography"  >Biography</a></li>
+                      <li class="{% if page.name  == 'schedule.html'   %}current_page_item{% endif %}"><a href="/schedule"   >Schedule</a></li>
+                      <li class="{% if page.name  == 'repertoire.html' %}current_page_item{% endif %}"><a href="/repertoire" >Repertoire</a></li>
+                      <li class="{% if page.name  == 'photos.html' or page.name  == 'photos-portraits.html' or page.name  == 'photos-concerts.html' or page.name  == 'photos-production.html' or page.name  == 'photos-high-resolution.html'  %}current_page_item{% endif %}"><a href="/photos"     >Photos</a>
+                          <ul class="sub-menu">
+                              <li class="{% if page.name  == 'photos-portraits.html'       %}current_page_item{% endif %}"><a href="/photos-portraits"      >Portraits</a>
+                              <li class="{% if page.name  == 'photos-concerts.html'        %}current_page_item{% endif %}"><a href="/photos-concerts"       >Concerts</a>
+                              <li class="{% if page.name  == 'photos-production.html'      %}current_page_item{% endif %}"><a href="/photos-production"     >Production photos</a>
+                              <li class="{% if page.name  == 'photos-high-resolution.html' %}current_page_item{% endif %}"><a href="/photos-high-resolution">High resolution photos</a>
+                          </ul>
+                      </li>
+                      <li class="{% if page.name  == 'recordings.html' %}current_page_item{% endif %}"><a href="/recordings" >Recordings</a></li>
+                      <li class="{% if page.name  == 'press.html'      %}current_page_item{% endif %}"><a href="/press"      >Press</a></li>
+                      <li class="{% if page.name  == 'contact.html'    %}current_page_item{% endif %}"><a href="/contact"    >Contact</a></li>
+                  {% endif %}
+                  </ul>
+                </div>
+            </nav><!-- #site-navigation -->
+            <div class="site-top-content" style="padding: 0;">
+                <span class="site-top-content-1">
+                {% comment %}
+                  {% if page.lang == 'pl' %}
+                      <a href="/en">EN</a>
+                  {% else %}
+                      <a href="/">PL</a>
+                  {% endif %}
+                {% endcomment %}
+
+                {% if page.lang == 'pl' %}
+                    {% if    page.name  == 'biografia.html'                         %}<a href="/biography"             >EN</a>
+                    {% elsif page.name  == 'kalendarz.html'                         %}<a href="/schedule"              >EN</a>
+                    {% elsif page.name  == 'repertuar.html'                         %}<a href="/repertoire"            >EN</a>
+                    {% elsif page.name  == 'zdjecia.html'                           %}<a href="/photos"                >EN</a>
+                    {% elsif page.name  == 'zdjecia-portrety.html'                  %}<a href="/photos-portraits"      >EN</a>
+                    {% elsif page.name  == 'zdjecia-koncerty.html'                  %}<a href="/photos-concerts"       >EN</a>
+                    {% elsif page.name  == 'zdjecia-spektakle.html'                 %}<a href="/photos-production"     >EN</a>
+                    {% elsif page.name  == 'zdjecia-o-wysokiej-rozdzielczosci.html' %}<a href="/photos-high-resolution">EN</a>
+                    {% elsif page.name  == 'nagrania.html'                          %}<a href="/recordings"            >EN</a>
+                    {% elsif page.name  == 'prasa.html'                             %}<a href="/press"                 >EN</a>
+                    {% elsif page.name  == 'kontakt.html'                           %}<a href="/contact"               >EN</a>
+                    {% else                                                         %}<a href="/en"                    >EN</a>
+                    {% endif %}
+                {% else %}
+                    {% if    page.name  == 'biography.html'              %}<a href="/biografia"                        >PL</a>
+                    {% elsif page.name  == 'schedule.html'               %}<a href="/kalendarz"                        >PL</a>
+                    {% elsif page.name  == 'repertoire.html'             %}<a href="/repertuar"                        >PL</a>
+                    {% elsif page.name  == 'photos.html'                 %}<a href="/zdjecia"                          >PL</a>
+                    {% elsif page.name  == 'photos-portraits.html'       %}<a href="/zdjecia-portrety"                 >PL</a>
+                    {% elsif page.name  == 'photos-concerts.html'        %}<a href="/zdjecia-koncerty"                 >PL</a>
+                    {% elsif page.name  == 'photos-production.html'      %}<a href="/zdjecia-spektakle"                >PL</a>
+                    {% elsif page.name  == 'photos-high-resolution.html' %}<a href="/zdjecia-o-wysokiej-rozdzielczosci">PL</a>
+                    {% elsif page.name  == 'recordings.html'             %}<a href="/nagrania"                         >PL</a>
+                    {% elsif page.name  == 'press.html'                  %}<a href="/prasa"                            >PL</a>
+                    {% elsif page.name  == 'contact.html'                %}<a href="/kontakt"                          >PL</a>
+                    {% else                                              %}<a href="/"                                 >PL</a>
+                    {% endif %}
+                {% endif %}
+                </span>
+{% comment %}
+                <a href="mailto:contact@soniawarzynska.com" class="site-top-content-2" style="
+    top: 10px;
+    background: #151515;
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 5px;
+    position: relative;
+    transition: background 0.2s;
+    width: 35px;">
+                    <svg class="icon icon-mail" aria-hidden="true" role="img" style="
+                        height: 16px;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    width: 16px;"> <use href="#icon-mail" xlink:href="#icon-mail"></use> </svg>
+                </a>
+{% endcomment %}
+            </div>
+        </div>
+    </div><!-- .header-top -->
+
+
+    <div class="custom-header" style="margin-top: auto;">
+
+        <div class="custom-header-image"
+             style="background-image: url(/p/i/foto1e.jpg); margin-top: 88px; padding: 15%;">
+            <div class="site-branding">
+                <div class="wrap">
+
+                    <p class="site-title"><a href="/" rel="home">Sonia Dettlaff</a></p>
+
+                    <p class="site-description">{% if page.lang == 'pl' %}sopran{% else %}soprano{% endif %}</p>
+
+                    {% comment %}
+                    <div style="max-width: 77%">
+                    <p class="site-title"><a href="/" rel="home">Sonia<br/>Warzyńska -&nbsp;Dettlaff</a></p>
+
+                    <p class="site-description">{% if page.lang == 'pl' %}sopran{% else %}soprano{% endif %}</p>
+                    </div>
+                    {% endcomment %}
+
+                </div><!-- .wrap -->
+            </div><!-- .site-branding -->
+        </div>
+
+
+    </div><!-- .custom-header -->
+
+</header>

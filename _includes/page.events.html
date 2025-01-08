@@ -1,0 +1,39 @@
+{% for event in site.events %}
+
+{% assign nowDateAsSeconds   = 'now'    | date: '%s' | plus: 0     %}
+{% assign eventDateAsSeconds = event[0] | date: '%s' | plus: 82800 %}
+
+{% if eventDateAsSeconds  > nowDateAsSeconds %}
+<div class="eventItem" data-event-date="{{ event[0] }}">
+
+<p style="margin: 0;">{{ event[1].date[[page.lang]] }}</p>
+
+<h3>{{ event[1].title[page.lang] }}</h3>
+
+<p style="margin: 0;">{{ event[1].place[page.lang] }}</p>
+
+{% if event[1].url != "" %}
+  <a href="{{ event[1].url }}" target="_blank">
+      {% if page.lang == 'pl' %}zobacz szczegóły{% else %}see more{% endif %}
+  </a><br/>
+{% endif %}
+
+{% if event[1].tickets != "" %}
+  <a href="{{ event[1].tickets }}" target="_blank">
+      {% if page.lang == 'pl' %}kup bilet{% else %}buy ticket{% endif %}
+  </a><br/>
+{% endif %}
+
+{% if event[1].online != "" %}
+  <a href="{{ event[1].online }}" target="_blank">
+      {% if page.lang == 'pl' %}słuchaj online{% else %}listen online{% endif %}
+  </a><br/>
+{% endif %}  
+  
+{% if forloop.last == false %}<hr>{% endif %}
+
+</div>
+{% endif %}
+
+{% endfor %}
+

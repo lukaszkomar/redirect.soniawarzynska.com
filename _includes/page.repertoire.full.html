@@ -1,0 +1,36 @@
+{% if page.lang == 'pl' %} 
+<h3>Repertuar:</h3>
+{% else %}
+<h3>Repertoire:</h3>
+{% endif %}
+
+{% for section in site.repertoire %}
+
+  <h3>{{ section[1].title[page.lang] }}</h3>
+
+  {% if section[1].nested %}
+
+    {% for subsection in section[1].items %}
+
+      <h4>{{ subsection[1].title[page.lang] }}</h4>
+      <ul>
+        {% for item in subsection[1].items %}
+          <li>{{ item[1][page.lang] }}</li>
+        {% endfor %}
+      </ul>
+
+    {% endfor %}
+
+  {% else %}
+
+    <ul>
+      {% for item in section[1].items %}
+        <li>{{ item[1][page.lang] }}</li>
+      {% endfor %}
+    </ul>
+
+  {% endif %}
+
+{% endfor %}
+
+<br/>
